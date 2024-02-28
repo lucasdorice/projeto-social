@@ -16,8 +16,6 @@ body {
 }
 
 main {
-    height: 100vh;
-    position: relative;
 
 }
 
@@ -31,4 +29,13 @@ section#telefone {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+
+    height: 472px;
+    width: 268px;
 }
